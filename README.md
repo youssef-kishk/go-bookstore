@@ -71,7 +71,7 @@ The code base follows Hexagonal Architecture and Domain-Driven Design principals
   ```
 
   - (Optional) Use docker compose
-    - Update the docker-compose.yml MYSQL_ROOT_PASSWORD and MYSQL_DATABASE fields
+    - Update the **docker-compose.yml** MYSQL_ROOT_PASSWORD and MYSQL_DATABASE fields
   ```
   docker compose build
   docker compose up
