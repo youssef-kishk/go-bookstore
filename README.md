@@ -11,7 +11,7 @@ This is used for educational and practicing purpose to learn design principals, 
 
 ## Design
 
-The code base follows Hexagonal Architecture and Domain-Driven Design principals, where the code is broken down to
+The code base follows Hexagonal Architecture and Domain-Driven Design principals, where the code is broken down to:
 
 - Domain
   - Model
@@ -59,18 +59,20 @@ The code base follows Hexagonal Architecture and Domain-Driven Design principals
 
 ## Build and Run
 - Install Go
+
 - Clone the repo on your machine
 
-- From root of the repo on your terminal run the following command
-```
-go run main.go
-```
+- Run
+  - From root of the repo on your terminal run the following command
+  ```
+  go run main.go
+  ```
 
-- (Optional) Use docker compose
-```
-docker compose build
-docker compose up
-```
+  - (Optional) Use docker compose
+  ```
+  docker compose build
+  docker compose up
+  ```
 
 ## To be done:
 - Authentication
