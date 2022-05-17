@@ -58,7 +58,7 @@ The code base follows Hexagonal Architecture and Domain-Driven Design principals
 
 
 ## Build and Run
-- Install Go
+- Install Go and Mysql
 
 - Clone the repo on your machine
 
