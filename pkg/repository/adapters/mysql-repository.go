@@ -10,7 +10,6 @@ import (
 )
 
 func NewMysqlRepository(conf *config.Config) repository.BaseRepository {
-	//uri := fmt.Sprintf("%s:%s@/%s?charset=utf8&parseTime=True&loc=Local", conf.USERNAME, conf.PASS, conf.DBNAME)
 
 	uri := fmt.Sprintf("%s:%s@tcp(db)/%s?charset=utf8&parseTime=True&loc=Local", conf.USERNAME, conf.PASS, conf.DBNAME)
 	d, err := gorm.Open("mysql", uri)

@@ -17,9 +17,9 @@ import (
 )
 
 // DB configuration params
-const USERNAME = "root"
-const PASS = "B211998."
-const DATABASE = "bookstore"
+const USERNAME = ""
+const PASS = ""
+const DATABASE = ""
 
 var client *gorm.DB
 
