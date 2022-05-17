@@ -62,6 +62,8 @@ The code base follows Hexagonal Architecture and Domain-Driven Design principals
 
 - Clone the repo on your machine
 
+- Update the database USERNAME, PASS and DATABASE constanst in main.go file
+
 - Run
   - From root of the repo on your terminal run the following command
   ```
@@ -69,6 +71,7 @@ The code base follows Hexagonal Architecture and Domain-Driven Design principals
   ```
 
   - (Optional) Use docker compose
+    - Update the docker-compose.yml MYSQL_ROOT_PASSWORD and MYSQL_DATABASE fields
   ```
   docker compose build
   docker compose up
