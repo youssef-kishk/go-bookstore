@@ -13,8 +13,8 @@ services:
     ports:
       - "3307:3307"
     environment:
-      MYSQL_ROOT_PASSWORD: B211998.
-      MYSQL_DATABASE: bookstore
+      MYSQL_ROOT_PASSWORD: <PASS>
+      MYSQL_DATABASE: <DBNAME>
     volumes:
       - .docker/setup.sql:/docker-entrypoint-initdb.d/setup.sql
       - mysql_data:/var/lib/mysql
