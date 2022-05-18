@@ -78,5 +78,6 @@ The code base follows Hexagonal Architecture and Domain-Driven Design principals
   ```
 
 ## To be done:
+- Unit tests
 - Config files
 - Authentication
